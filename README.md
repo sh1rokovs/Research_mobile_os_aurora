@@ -3,6 +3,6 @@ Few labs on qml
 
 Technologies:
 
-'''
-Aurora SDK
-'''
+```
+Aurora SDK, QT Creator, Oracle VM VirtualBox
+```
