@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Rename this file as lab_2.changes.run to let mb2 automatically
+# Rename this file as new_lab_2.changes.run to let mb2 automatically
 # generate changelog from well formatted Git commit messages and tag
 # annotations.
 

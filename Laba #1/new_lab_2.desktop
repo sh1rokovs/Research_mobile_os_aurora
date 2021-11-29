@@ -1,12 +1,12 @@
 [Desktop Entry]
 Type=Application
 X-Nemo-Application-Type=silica-qt5
-Icon=lab_2
-Exec=lab_2
-Name=lab_2
+Icon=new_lab_2
+Exec=new_lab_2
+Name=new_lab_2
 # translation example:
 # your app name in German locale (de)
 #
 # Remember to comment out the following line, if you do not want to use
 # a different app name in German locale (de).
-Name[de]=lab_2
+Name[de]=new_lab_2

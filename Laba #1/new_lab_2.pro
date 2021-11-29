@@ -10,22 +10,22 @@
 #   - translation filenames have to be changed
 
 # The name of your application
-TARGET = lab_2
+TARGET = new_lab_2
 
 CONFIG += sailfishapp
 
-SOURCES += src/lab_2.cpp
+SOURCES += src/new_lab_2.cpp
 
-DISTFILES += qml/lab_2.qml \
+DISTFILES += qml/new_lab_2.qml \
     qml/cover/CoverPage.qml \
     qml/pages/FirstPage.qml \
     qml/pages/SecondPage.qml \
-    rpm/lab_2.changes.in \
-    rpm/lab_2.changes.run.in \
-    rpm/lab_2.spec \
-    rpm/lab_2.yaml \
+    rpm/new_lab_2.changes.in \
+    rpm/new_lab_2.changes.run.in \
+    rpm/new_lab_2.spec \
+    rpm/new_lab_2.yaml \
     translations/*.ts \
-    lab_2.desktop
+    new_lab_2.desktop
 
 SAILFISHAPP_ICONS = 86x86 108x108 128x128 172x172
 
@@ -37,4 +37,4 @@ CONFIG += sailfishapp_i18n
 # planning to localize your app, remember to comment out the
 # following TRANSLATIONS line. And also do not forget to
 # modify the localized app name in the the .desktop file.
-TRANSLATIONS += translations/lab_2-de.ts
+TRANSLATIONS += translations/new_lab_2-de.ts

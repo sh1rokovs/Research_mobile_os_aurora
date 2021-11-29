@@ -2,6 +2,7 @@ import QtQuick 2.0
 import Sailfish.Silica 1.0
 
 Page {
+    property int value: 0
     id: page
 
     // The effective value will be restricted by ApplicationWindow.allowedOrientations
@@ -29,15 +30,25 @@ Page {
 
             width: page.width
             spacing: Theme.paddingLarge
+
+
             PageHeader {
-                title: qsTr("UI Template")
+                title: qsTr("Счетчик")
+                rightMargin: 30.0
             }
-            Label {
-                x: Theme.horizontalPageMargin
-                text: qsTr("Hello Sailors")
-                color: Theme.secondaryHighlightColor
-                font.pixelSize: Theme.fontSizeExtraLarge
+            Button{
+                id:button
+                text: "Увеличить число"
+                width:parent.width
+                onClicked: value++
+            }
+            Text{
+                objectName: "Счетчик"
+                text: value
+                horizontalAlignment: Text.AligHCenter
+                font.pixelSize: 250
             }
         }
     }
 }
+

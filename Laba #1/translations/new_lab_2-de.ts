@@ -15,12 +15,8 @@
         <translation>Zur Seite 2</translation>
     </message>
     <message>
-        <source>UI Template</source>
-        <translation>UI-Vorlage</translation>
-    </message>
-    <message>
-        <source>Hello Sailors</source>
-        <translation>Hallo Matrosen</translation>
+        <source>Счетчик</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -32,17 +28,6 @@
     <message>
         <source>Item</source>
         <translation>Element</translation>
-    </message>
-</context>
-<context>
-    <name>lab_2</name>
-    <message>
-        <source>Show Page 2</source>
-        <translation type="unfinished">Zur Seite 2</translation>
-    </message>
-    <message>
-        <source>Счетчик</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
